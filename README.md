@@ -32,7 +32,9 @@ To get this project up and running on your local machine, follow these steps:
 Once `index.html` is open in your browser, you can:
 
 - Enter a city name in the input field.
-- Click the "Get Weather" button to fetch and display the current weather for that city.
+- Click the "Search" button to fetch and display the current weather for that city.
+- View the current temperature, weather conditions, and other relevant information.
+- "Use my location" to get the weather for your current location.
 
 ## File Structure
 
@@ -41,7 +43,7 @@ Once `index.html` is open in your browser, you can:
 ├── README.md
 ├── script.js
 ├── styles.css
-└── weather.html
+└── index.html
 ```
 ## Technologies Used
 
