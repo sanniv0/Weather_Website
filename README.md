@@ -14,7 +14,7 @@ To get this project up and running on your local machine, follow these steps:
 1.  **Clone the repository**:
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/sanniv0/Weather_Website.git
     ```
 
 2.  **Obtain an API Key**:
@@ -23,13 +23,13 @@ To get this project up and running on your local machine, follow these steps:
     - Go to [OpenWeatherMap](https://openweathermap.org/api) (or your preferred weather API provider).
     - Sign up for an account and obtain your API key.
 
-3.  **Open `weather.html`**:
+3.  **Open `index.html`**:
 
-    Simply open the `weather.html` file in your web browser. All the necessary JavaScript and CSS are embedded within this single HTML file.
+    Simply open the `index.html` file in your web browser. All the necessary JavaScript and CSS are embedded within this single HTML file.
 
 ## Usage
 
-Once `weather.html` is open in your browser, you can:
+Once `index.html` is open in your browser, you can:
 
 - Enter a city name in the input field.
 - Click the "Get Weather" button to fetch and display the current weather for that city.
