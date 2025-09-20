@@ -1,4 +1,4 @@
-# Weather API Project
+# Dynamic Weather Dashboard
 
 This is a simple web project that interacts with a weather API to display weather information.
 
