@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</body>
+    <div class="dashboard">
+        <div class="header">
+            <h1 class="title">Weather Dashboard</h1>
+        </div>
+
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Enter city name..." id="cityInput">
+            </div>
+            <button class="btn" onclick="searchWeather()">Search</button>
+            <button class="btn" onclick="getCurrentLocation()">Use My Location</button>
+        </div>
+
+        <div id="loading" class="loading" style="display: none;">
+            <div>🌤️ Loading weather data...</div>
+        </div>
+
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div id="weatherContent" class="weather-content">
+            <div class="current-weather">
+                <div class="location" id="location"></div>
+                <div class="weather-icon" id="weatherIcon"></div>
+                <div class="temperature" id="temperature"></div>
+                <div class="description" id="description"></div>
+            </div>
+
+            <div class="weather-details">
+                <div class="detail-card">
+                    <div class="detail-title">Feels Like</div>
+                    <div class="detail-value" id="feelsLike"></div>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-title">Humidity</div>
+                    <div class="detail-value" id="humidity"></div>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-title">Wind Speed</div>
+                    <div class="detail-value" id="windSpeed"></div>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-title">Visibility</div>
+                    <div class="detail-value" id="visibility"></div>
+                </div>
+            </div>
+
+            <div class="forecast">
+                <h3 class="forecast-title">5-Day Forecast</h3>
+                <div class="forecast-container" id="forecastContainer"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
